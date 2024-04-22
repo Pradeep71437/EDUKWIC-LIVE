@@ -1,0 +1,40 @@
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  .whyus{
+    font-size: 60px;
+  }
+  .whyus span{
+    color: #9719ff;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5e0094, 0 0 40px #5e0094, 0 0 50px #5e0094, 0 0 60px #5e0094, 0 0 70px #5e0094;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #9719ff, 0 0 40px #9719ff, 0 0 50px #9719ff, 0 0 60px #9719ff, 0 0 70px #9719ff, 0 0 80px #9719ff;
+    }
+  }
+
+  .slogan{
+    font-size: 60px;
+    text-align: left;
+  }
+ 
+  @media screen and (max-width: 992px) {
+    .slogan{
+        font-size: 55px;
+        text-align: center;
+    }
+}
+
+.box-shadow{
+   
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
