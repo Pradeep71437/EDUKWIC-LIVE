@@ -821,16 +821,17 @@ Categories & Collections Style
 */
 
 .categories-collections {
-  background-image: url(../images/dark-bg.jpg);
+  /* background-image: url(../images/dark-bg.jpg); */
+  background-color: #242527;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 120px 0px 150px 0px;
+  padding: 120px 0px 0px 0px;
   position: relative;
 }
 
 .categories-collections:after {
-  background-image: url(/assets/images/category-collection-dec.png);
+  /* background-image: url(/assets/images/category-collection-dec.png); */
   width: 300px;
   height: 282px;
   position: absolute;
@@ -1424,7 +1425,7 @@ Explore Style
 }
 
 .discover-items {
-  background-image: url(../images/dark-bg.jpg);
+  /* background-image: url(../images/dark-bg.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
